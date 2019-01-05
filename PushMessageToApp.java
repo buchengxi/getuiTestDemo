@@ -13,9 +13,9 @@ import com.gexin.rp.sdk.template.LinkTemplate;
 import com.gexin.rp.sdk.template.style.Style0;
 
 public class PushMessageToApp extends PushBase{    
-    //采用"Java SDK 快速入门"， "第二步 获取访问凭证 "中获得的应用配置，用户可以自行替换
+   
   
-
+    //采用的是main方法测试,用户可根据需求更改
     public static void main(String[] args) throws Exception {
     	
         IGtPush push = new IGtPush(API, APPKEY, MASTERSECRET);
