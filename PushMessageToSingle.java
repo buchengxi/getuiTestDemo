@@ -15,13 +15,13 @@ import com.gexin.rp.sdk.template.style.Style0;
  *
  */
 public class PushMessageToSingle extends PushBase{
-    //采用"Java SDK 快速入门"， "第二步 获取访问凭证 "中获得的应用配置，用户可以自行替换
+    
 	
    /* private static String appId = "YpPMjJgDycAoKql1wU9Jx4"; //所指定用户的appId,key,masterSecret
     private static String appKey = "7WS272uOZk7xpMfOp0Vet4";
     private static String masterSecret = "A3f9UCVxm5AspWYjzi7vB9";
 */
-    static String CID = "f9f23d5071ef2dbfbb8333cd342c9023";//客户端Clientid,唯一
+    static String CID = "f9f23d5071ef2dbfbb8333cd342c9023";//客户端Clientid,唯一,使用者提供
     
     //别名推送方式
     // static String Alias = "";
