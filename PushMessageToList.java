@@ -12,10 +12,11 @@ import com.gexin.rp.sdk.template.NotificationTemplate;
 import com.gexin.rp.sdk.template.style.Style0;
 
 public class PushMessageToList extends PushBase{
-    //采用"Java SDK 快速入门"， "第二步 获取访问凭证 "中获得的应用配置，用户可以自行替换
-    //private static String appId = "";
-    //private static String appKey = "";
-    //private static String masterSecret = "";
+    
+    /*
+     * cId由当前使用app用户提供
+     * 本类将消息推送给指定用户/用户组/标签组
+     */
 
     static String CID1 = "";
     static String CID2 = "";
